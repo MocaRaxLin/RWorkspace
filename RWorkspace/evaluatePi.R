@@ -31,7 +31,8 @@ for(h in 1:7){
   pi[h+1] = 4*n/N
 }
 
-# plot line graph
+# plot line graph and print pi
+print(pi)
 exp = c(1:8)
 plot(exp, pi, type = "o", col= "blue")
 
