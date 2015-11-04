@@ -34,5 +34,5 @@ for(h in 1:7){
 # plot line graph and print pi
 print(pi)
 exp = c(1:8)
-plot(exp, pi, type = "o", col= "blue")
+plot(exp, pi, type = "l", col= "blue")
 

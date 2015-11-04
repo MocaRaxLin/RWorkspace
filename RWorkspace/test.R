@@ -49,4 +49,6 @@
 # d = table(list(Gender=HGNdf$Gender,Hair=HGNdf$Hair))
 # print(d)
 
-
+x = seq(-5,5,0.05)
+p = dnorm(x,0,1)
+plot(x,p,type='l',col='blue')
