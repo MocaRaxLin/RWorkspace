@@ -30,17 +30,16 @@
 #                   LayDimName = c("L1","L2") ) )
 # print(a)
 
-# x = c( rep(1,100) , rep(2,200) , rep(3,300) ) # 100 1・s, 200 2・s, 300 3・s
+# x = c( rep(1,100) , rep(2,200) , rep(3,300) ) # 100 1??s, 200 2??s, 300 3??s
 # print(summary(x))
 # xf = factor(x)
 # print(summary(xf))
 
 # HGNdf = read.csv("HGN.csv")
-
 # a = aggregate( x=HGNdf$Number , by=list(HGNdf$Gender,HGNdf$Hair) , FUN=median )
 # b = aggregate( Number ~ Gender + Hair , data=HGNdf , FUN=median )
 # # a = b
-# c = aggregate( x=list(Count=rep(1,NROW(HGNdf))) , # column of 1・s
+# c = aggregate( x=list(Count=rep(1,NROW(HGNdf))) , # column of 1??s
 #               by=list(Gender=HGNdf$Gender,Hair=HGNdf$Hair) , FUN=sum )
 # # print(a)
 # # print(b)
@@ -49,6 +48,16 @@
 # d = table(list(Gender=HGNdf$Gender,Hair=HGNdf$Hair))
 # print(d)
 
-x = seq(-5,5,0.05)
-p = dnorm(x,0,1)
-plot(x,p,type='l',col='blue')
+# a = 1:20
+# h = head(a,3)
+# print(h)
+# t = tail(t,3)
+# print(t)
+
+# rout=sample(0:1,size=1,prob=c(19/37,18/37),replace=T)
+# print(rout)
+# rout=sample(0:1,size=1000,prob=c(19/37,18/37),replace=T)
+# plot(rout)
+
+
+
